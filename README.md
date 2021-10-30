@@ -1,5 +1,4 @@
-# RPWE
-Reward Penalty Based Weighted Ensemble approach for multimodal data stream classification
+# Reward Penalty Based Weighted Ensemble approach for multimodal data stream classification
 
 # Research Goal:
 
