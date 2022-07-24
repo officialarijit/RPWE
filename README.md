@@ -16,7 +16,7 @@ The aim of this research study is to develop a **Reward-Penalty Based Weighted E
 # This work is published in : `International Journal of Neural Systems`
 `Full paper link:` https://www.worldscientific.com/doi/10.1142/S0129065722500496
 
-# NOTE*: Please feel free to use the code by giving proper citation and star to this repository.
+## NOTE*: Please feel free to use the code by giving proper citation and star to this repository.
 
 ## 📝 License
 Copyright © [Arijit](https://github.com/officialarijit).
