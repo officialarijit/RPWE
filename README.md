@@ -1,5 +1,8 @@
 # Reward Penalty Based Weighted Ensemble Approach for Multimodal Data Stream Classification
 
+# This work is published in : `International Journal of Neural Systems`
+# `Full paper link:` https://www.worldscientific.com/doi/10.1142/S0129065722500496
+
 # Research Goal:
 
 The majority voting is the simplest ensemble approach where it considers that each classifier in the ensemble set has equal priority. In contrast, heterogeneous weights are assigned to each classifier in the weighted majority. The weighted majority voting is in itself more complex than simple majority voting due to the use of weights for the corresponding classifier. It improves the accuracy of classification without increasing the complexity of the ensemble classifier as a whole. Based on the classifier's performance, the weights are adjusted, which means the weights are decreased every time the classifier predicts the wrong class. 
@@ -13,8 +16,7 @@ The majority voting is the simplest ensemble approach where it considers that ea
 The aim of this research study is to develop a **Reward-Penalty Based Weighted Ensemble (RPWE)** for emotion state classification using multi-modal physiological data streams. In RPWE, the weights are increased and decreased based on the classifiers performance; if the classifier is performing well (classifying correct classes) then it will be be rewarded (increasing weights means increasing priority) by the reward-penalty factor (called _beta_). On the other hand, if the classifier performs poorly (classifying the wrong classes) it will be penalized  by the reward-penalty factor. The _beta_ is adjusted automatically based on the classifiers' performance.
 
 
-# This work is published in : `International Journal of Neural Systems`
-`Full paper link:` https://www.worldscientific.com/doi/10.1142/S0129065722500496
+
 
 ## NOTE*: Please feel free to use the code by giving proper citation and star to this repository.
 
