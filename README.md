@@ -15,10 +15,46 @@ The majority voting is the simplest ensemble approach where it considers that ea
 
 The aim of this research study is to develop a **Reward-Penalty Based Weighted Ensemble (RPWE)** for emotion state classification using multi-modal physiological data streams. In RPWE, the weights are increased and decreased based on the classifiers performance; if the classifier is performing well (classifying correct classes) then it will be be rewarded (increasing weights means increasing priority) by the reward-penalty factor (called _beta_). On the other hand, if the classifier performs poorly (classifying the wrong classes) it will be penalized  by the reward-penalty factor. The _beta_ is adjusted automatically based on the classifiers' performance.
 
+**DATASET** : `DEAP` and `AMIGOS` dataset is required. To download `DEAP dataset` click on : https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html
 
+
+
+
+**DATA Rearrangement required**
+```diff
+- CAUTION
+
++ The DEAP data needs a simple rearrangement to work with the code. 
+
+@@  Check the `data_rearrangements` folder for the  DEAP  data rearrangement from the .dat or .mat file from the DEAP dataset. @@
+@@ Then follow the follwoing steps. @@
+
+```
+
+- Programming language
+  - `Python 3.6`
+
+- Operating system
+  - `Ubuntu 18.04 (64 bit)` 
 
 
 ## NOTE*: Please feel free to use the code by giving proper citation and star to this repository.
+
+# Cite this work: 
+    @article{doi:10.1142/S0129065722500496,
+		author = {Nandi, Arijit and Xhafa, Fatos and Subirats, Laia and Fort, Santi},
+		title = {Reward-Penalty Weighted Ensemble for Emotion State Classification from Multi-modal Data Streams},
+		journal = {International Journal of Neural Systems},
+		volume = {0},
+		number = {ja},
+		pages = {null},
+		year = {0},
+		doi = {10.1142/S0129065722500496},
+		URL = {https://doi.org/10.1142/S0129065722500496},
+		eprint = {https://doi.org/10.1142/S0129065722500496}
+	}
+
+
 
 ## 📝 License
 Copyright © [Arijit](https://github.com/officialarijit).
